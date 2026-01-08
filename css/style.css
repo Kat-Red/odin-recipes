@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "New Time Roman", sans-serif;
+	background: #eee;
+}
+
+h1{
+	font-family: Cursive, Helvetica;
+	text-align: center;
+	padding: 12px;
+	background: black;
+	color: white;
+	font-size: 40px;
+}
+
+nav{
+	text-align: center;
+	background: white;
+	font-size: 20px;
+}
+
+nav li, nav a{
+	display: inline-block;
+	padding: 4px;	
+	color: #ff9423;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+nav a:hover{
+	color: #b3371b;
+}
+
+
+
+
+
+
+img{
+	display: block;
+	margin: auto;
+	height: 80vh;
+	width: auto;
+}
+
+main{
+	padding: 28px 16px;
+	background: white;
+}
+
+main ol, main ul{
+	margin: 12px 0 16px 32px;
+
+}
+
+main ol li, main ul li {
+	margin-top: 12px ;
+}
+
+main h2{
+	margin: 32px 0 16px;
+	border-bottom: 1px solid #aaa;
+	width: 300px;
+	padding: 4px;
+}
